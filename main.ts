@@ -5,4 +5,5 @@ basic.forever(function () {
     humidité,
     1023
     )
+    basic.showNumber(humidité)
 })
