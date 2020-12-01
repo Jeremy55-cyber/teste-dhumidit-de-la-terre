@@ -5,5 +5,7 @@ basic.forever(function () {
     humidité,
     1023
     )
-    basic.showNumber(humidité)
+    if (input.buttonIsPressed(Button.A)) {
+        basic.showNumber(humidité)
+    }
 })
